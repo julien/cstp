@@ -1,8 +1,8 @@
 CSTP
 ----
-           A node module that uses [express](http://expressjs.com) to
-       serve static files and [CoffeeScript](http://www.coffeescript.org)
-                           to compile .coffee files.
+A node module that uses [express](http://expressjs.com) to 
+serve static files and [CoffeeScript](http://www.coffeescript.org) 
+to compile .coffee files.
 
 
 
@@ -20,6 +20,4 @@ CSTP
         TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
                    0. You just DO WHAT THE FUCK YOU WANT TO.
-
-
 

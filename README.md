@@ -1,16 +1,8 @@
-          _         
-         | |        
-  ___ ___| |_ _ __  
- / __/ __| __| '_ \ 
-| (__\__ \ |_| |_) |
- \___|___/\__| .__/ 
-             | |    
-             |_|    
-
-
-CTSP: A node module that uses express[http://expressjs.com] to
-serv static files and [CoffeeScript](http://www.coffeescript.org)
-to compile .coffee files.
+CSTP
+----
+           A node module that uses [express](http://expressjs.com) to
+       serve static files and [CoffeeScript](http://www.coffeescript.org)
+                           to compile .coffee files.
 
 
 

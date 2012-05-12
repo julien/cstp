@@ -1,21 +1,34 @@
 {
-  "author": "Juilen Castelain <jcastelain[at]gmail>"
-  , "name": "cstp"
-  , "description": "Simple HTTP server (watches & compiles coffeescript files)"
-  , "version": "0.0.1"
-  , "repository": "git://github.com/julien/cstp.git"
-  , "keywords": ["http", "web", "server", "coffeescript"]
-  , "main": "./lib/cstp.js"
-  , "bin": { "cstp": "./lib/cstp.js" }
-  , "preferGlobal": "true"
-  , "scripts" : { "prepublish" : "npm prune", "test": "make test" }
-  , "dependencies": {
-      "coffee-script": "*",
-      "commander": "*",
-      "express":"*"
-  }
-  , "engines": {
+  "author": "Julien Castelain <jcastelain@gmail.com> (http://punkscum.org)",
+  "name": "cstp",
+  "description": "Simple HTTP server (watches & compiles coffeescript files)",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/julien/cstp.git"
+  },
+  "keywords": [
+    "http",
+    "web",
+    "server",
+    "coffeescript"
+  ],
+  "main": "./lib/cstp.js",
+  "bin": {
+    "cstp": "./lib/cstp.js"
+  },
+  "preferGlobal": "true",
+  "scripts": {
+    "prepublish": "npm prune"
+  },
+  "dependencies": {
+    "coffee-script": "*",
+    "commander": "*"
+  },
+  "engines": {
     "node": "*"
-  }
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "homepage": "https://github.com/julien/cstp"
 }
-

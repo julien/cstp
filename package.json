@@ -22,13 +22,15 @@
     "prepublish": "npm prune"
   },
   "dependencies": {
-    "coffee-script": "*",
     "commander": "*"
   },
   "engines": {
     "node": "*"
   },
   "devDependencies": {},
-  "optionalDependencies": {},
+  "optionalDependencies": {
+    "coffee-script": "*"
+  },
+
   "homepage": "https://github.com/julien/cstp"
 }

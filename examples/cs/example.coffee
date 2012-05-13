@@ -1,13 +1,8 @@
-
 sayHello = ->
-  f = document.createDocumentFragment()
   h = document.createElement 'h1'
   h.innerHTML = 'Hello CoffeeScript'
-  f.appendChild h
-  b = document.body
-  b.appendChild f
-  f
+  document.body.appendChild(document.createDocumentFragment().appendChild h)
 
 window.onload = sayHello
-
+#vim set wrap ts=2 sw=2 invlist
 

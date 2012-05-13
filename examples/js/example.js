@@ -3,14 +3,10 @@
   var sayHello;
 
   sayHello = function() {
-    var b, f, h;
-    f = document.createDocumentFragment();
+    var h;
     h = document.createElement('h1');
     h.innerHTML = 'Hello CoffeeScript';
-    f.appendChild(h);
-    b = document.body;
-    b.appendChild(f);
-    return f;
+    return document.body.appendChild(document.createDocumentFragment().appendChild(h));
   };
 
   window.onload = sayHello;

@@ -2,7 +2,7 @@
   "author": "Julien Castelain <jcastelain@gmail.com> (http://punkscum.org)",
   "name": "cstp",
   "description": "Simple HTTP server (watches & compiles coffeescript files)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/julien/cstp.git"

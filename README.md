@@ -16,6 +16,7 @@ or for a global installation
     -h, --help         output usage information
     -V, --version      output the version number
     -p, --port <port>  The port on which to run the server.
+    -c, --compile      Should it invoke coffee -w -c (watch and compile).
     -s, --src [path]   CoffeeScript source directory.
     -o, --out [path]   CoffeeScript output directory.
 

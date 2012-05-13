@@ -21,16 +21,4 @@ or for a global installation
     -o, --out [path]   CoffeeScript output directory.
 
 
-### Misc:
-
-This is **a really basic** npm module so don't expect much.
-
-Check the example in the examples dir (it just serves a basic html file, using the generated javascript from the coffeescript source).
-
-
-
-
-
-
-
 
